@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+    overflow-x: hidden;
+    scroll-behavior: smooth ease-in-out;
+    font-family: 'poppins', sans-serif;
+}
+
+
+header {
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+#titulos {
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto 100px auto;
+    width: 80vh;
+    border-bottom: 1px solid black;
+}
+section p {
+    margin: 40px auto 50px auto;
+    line-height: 1.8rem;
+}
+
+h3 {
+    margin: 0 auto;
+    text-align: center;
+}
